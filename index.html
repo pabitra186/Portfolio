@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pabitra-Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="\style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"><b>Pabitra</b></div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="nav-links" id="menu">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h1>HI, I am  <span>Pabitra Thapa Magar</span></h1>
+            <p>Computer Applications student from Nepal, currently learning web development and gaining experience through hands-on projects.</p>
+            <button class="btn" onclick="location.href='#projects'">View Projects</button>
+        </div>
+
+        <div class="hero-img">
+            <img src="./WhatsApp Image 2026-03-22 at 12.11.53 AM.jpeg" alt="">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Pabitra Thapa Magar, a Computer Applications student from Nepal. I am passionate about web development and enjoy building practical projects to enhance my skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript (Basic)</div>
+            <div class="card">PHP (Basic)</div>
+            <div class="card">Python (Basic)</div>
+            <div class="card">GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid">
+
+            <a href="https://github.com/pabitra4769673-cell/number_guessing_game/tree/main" target="_blank">
+                <div class="card">
+                    <h3>Number Guessing Game</h3>
+                    <p>Developed using Python demonstrating logic building and user interaction.</p>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/pabitra4769673-cell/google_landing_page/tree/main" target="_blank">
+                <div class="card">
+                    <h3>Google Landing Page</h3>
+                    <p>Created a replica landing page using HTML and CSS focusing on layout and design.</p>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Computer Application (BCA) - Running</p>
+        <p>Hetauda School of Management and Social Sciences</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <div class="grid">
+            <div class="card">Coding</div>
+            <div class="card">Reading</div>
+            <div class="card">Dancing</div>
+            <div class="card">Traveling</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:pabitra4769673@gmail.com">pabitra4769673@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/pabitra4769673-cell" target="_blank">github.com/pabitra-magar</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/isha-duwal-90baaa330/"
+                target="_blank">linkedin.com/in/pabitra-magar</a></p>
+
+        <input placeholder="Your Name">
+        <input placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button class="btns">Send Message</button>
+    </section>
+
+    <footer>
+        <p>© 2026 Pabitra Thapa Magar. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
+
+</body>
+
+</html>
